@@ -7,14 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E3757EE5F7BF6CD15424A8 /* Pods_TestChatKitS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05DE0C2C349CC8BD3D56D1DD /* Pods_TestChatKitS.framework */; };
 		D608C8BE220125B40005F8A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608C8BD220125B40005F8A6 /* AppDelegate.swift */; };
 		D608C8C0220125B40005F8A6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D608C8BF220125B40005F8A6 /* ViewController.swift */; };
 		D608C8C3220125B40005F8A6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608C8C1220125B40005F8A6 /* Main.storyboard */; };
 		D608C8C5220125B60005F8A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D608C8C4220125B60005F8A6 /* Assets.xcassets */; };
 		D608C8C8220125B60005F8A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D608C8C6220125B60005F8A6 /* LaunchScreen.storyboard */; };
+		D608C93F22012BC70005F8A6 /* UIFont+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8DE22012BC70005F8A6 /* UIFont+LCCKExtension.m */; };
+		D608C94022012BC70005F8A6 /* UIColor+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8DF22012BC70005F8A6 /* UIColor+LCCKExtension.m */; };
+		D608C94122012BC70005F8A6 /* LCCKUIUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8E022012BC70005F8A6 /* LCCKUIUtility.m */; };
+		D608C94222012BC70005F8A6 /* NSDate+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8E622012BC70005F8A6 /* NSDate+Utilities.m */; };
+		D608C94322012BC70005F8A6 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8EA22012BC70005F8A6 /* NSDate+Extension.m */; };
+		D608C94422012BC70005F8A6 /* NSFileManager+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8EB22012BC70005F8A6 /* NSFileManager+LCCKExtension.m */; };
+		D608C94522012BC70005F8A6 /* NSFileManager+Paths.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8ED22012BC70005F8A6 /* NSFileManager+Paths.m */; };
+		D608C94622012BC70005F8A6 /* NSDate+LCCKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8EE22012BC70005F8A6 /* NSDate+LCCKExtension.m */; };
+		D608C94722012BC70005F8A6 /* LCCKMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8F322012BC70005F8A6 /* LCCKMapViewController.m */; };
+		D608C94822012BC70005F8A6 /* LCCKPlusButtonSubclass.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8F522012BC70005F8A6 /* LCCKPlusButtonSubclass.m */; };
+		D608C94922012BC70005F8A6 /* LCCKUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8F722012BC70005F8A6 /* LCCKUtil.m */; };
+		D608C94A22012BC70005F8A6 /* LCCKChatDetailHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C8FD22012BC70005F8A6 /* LCCKChatDetailHelper.m */; };
+		D608C94B22012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90022012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.m */; };
+		D608C94C22012BC70005F8A6 /* LCCKProfileNameEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90122012BC70005F8A6 /* LCCKProfileNameEditViewController.m */; };
+		D608C94D22012BC70005F8A6 /* LCCKSingleConversationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90322012BC70005F8A6 /* LCCKSingleConversationDetailViewController.m */; };
+		D608C94E22012BC70005F8A6 /* LCCKGroupConversationManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90522012BC70005F8A6 /* LCCKGroupConversationManagementViewController.m */; };
+		D608C94F22012BC70005F8A6 /* LCCKGroupConversationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90722012BC70005F8A6 /* LCCKGroupConversationDetailViewController.m */; };
+		D608C95022012BC70005F8A6 /* LCCKSettingFooterTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90C22012BC70005F8A6 /* LCCKSettingFooterTitleView.m */; };
+		D608C95122012BC70005F8A6 /* LCCKSettingHeaderTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C90F22012BC70005F8A6 /* LCCKSettingHeaderTitleView.m */; };
+		D608C95222012BC70005F8A6 /* LCCKSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C91122012BC70005F8A6 /* LCCKSettingGroup.m */; };
+		D608C95322012BC70005F8A6 /* LCCKSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C91222012BC70005F8A6 /* LCCKSettingItem.m */; };
+		D608C95422012BC70005F8A6 /* LCCKSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C91522012BC70005F8A6 /* LCCKSettingViewController.m */; };
+		D608C95522012BC70005F8A6 /* LCCKSettingSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C91722012BC70005F8A6 /* LCCKSettingSwitchCell.m */; };
+		D608C95622012BC70005F8A6 /* LCCKSettingButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C91822012BC70005F8A6 /* LCCKSettingButtonCell.m */; };
+		D608C95722012BC70005F8A6 /* LCCKSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C91922012BC70005F8A6 /* LCCKSettingCell.m */; };
+		D608C95822012BC70005F8A6 /* LCCKUserGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C92122012BC70005F8A6 /* LCCKUserGroupCell.m */; };
+		D608C95922012BC70005F8A6 /* LCCKUserGroupItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C92322012BC70005F8A6 /* LCCKUserGroupItemCell.m */; };
+		D608C95A22012BC70005F8A6 /* LCCKLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C92722012BC70005F8A6 /* LCCKLoginViewController.m */; };
+		D608C95B22012BC70005F8A6 /* LCCKLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D608C92822012BC70005F8A6 /* LCCKLoginViewController.xib */; };
+		D608C95C22012BC70005F8A6 /* LCCKLoginDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C92A22012BC70005F8A6 /* LCCKLoginDataSource.m */; };
+		D608C95D22012BC70005F8A6 /* DEMODataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C92B22012BC70005F8A6 /* DEMODataSource.m */; };
+		D608C95E22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C92C22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.m */; };
+		D608C95F22012BC70005F8A6 /* LCCKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C93222012BC70005F8A6 /* LCCKUser.m */; };
+		D608C96022012BC70005F8A6 /* LCCKContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C93422012BC70005F8A6 /* LCCKContactManager.m */; };
+		D608C96122012BC70005F8A6 /* NSObject+LCCKHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C93822012BC70005F8A6 /* NSObject+LCCKHUD.m */; };
+		D608C96822012C740005F8A6 /* LCChatKitExample+Setting.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C96222012C720005F8A6 /* LCChatKitExample+Setting.m */; };
+		D608C96922012C740005F8A6 /* LCCKTabBarControllerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C96322012C720005F8A6 /* LCCKTabBarControllerConfig.m */; };
+		D608C96A22012C740005F8A6 /* LCChatKitExample.m in Sources */ = {isa = PBXBuildFile; fileRef = D608C96422012C730005F8A6 /* LCChatKitExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05DE0C2C349CC8BD3D56D1DD /* Pods_TestChatKitS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestChatKitS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05FF9BC7D23D02E1038F42D7 /* Pods-TestChatKitS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestChatKitS.release.xcconfig"; path = "Target Support Files/Pods-TestChatKitS/Pods-TestChatKitS.release.xcconfig"; sourceTree = "<group>"; };
 		D608C8BA220125B40005F8A6 /* TestChatKitS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestChatKitS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D608C8BD220125B40005F8A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D608C8BF220125B40005F8A6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +63,86 @@
 		D608C8C4220125B60005F8A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D608C8C7220125B60005F8A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D608C8C9220125B60005F8A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D608C8CF22012B760005F8A6 /* TestChatKitS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestChatKitS-Bridging-Header.h"; sourceTree = "<group>"; };
+		D608C8DE22012BC70005F8A6 /* UIFont+LCCKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+LCCKExtension.m"; sourceTree = "<group>"; };
+		D608C8DF22012BC70005F8A6 /* UIColor+LCCKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LCCKExtension.m"; sourceTree = "<group>"; };
+		D608C8E022012BC70005F8A6 /* LCCKUIUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUIUtility.m; sourceTree = "<group>"; };
+		D608C8E122012BC70005F8A6 /* UIColor+LCCKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LCCKExtension.h"; sourceTree = "<group>"; };
+		D608C8E222012BC70005F8A6 /* UIFont+LCCKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+LCCKExtension.h"; sourceTree = "<group>"; };
+		D608C8E322012BC70005F8A6 /* LCCKUIUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUIUtility.h; sourceTree = "<group>"; };
+		D608C8E522012BC70005F8A6 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		D608C8E622012BC70005F8A6 /* NSDate+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Utilities.m"; sourceTree = "<group>"; };
+		D608C8E722012BC70005F8A6 /* NSFileManager+LCCKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+LCCKExtension.h"; sourceTree = "<group>"; };
+		D608C8E822012BC70005F8A6 /* NSDate+LCCKExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+LCCKExtension.h"; sourceTree = "<group>"; };
+		D608C8E922012BC70005F8A6 /* NSFileManager+Paths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Paths.h"; sourceTree = "<group>"; };
+		D608C8EA22012BC70005F8A6 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		D608C8EB22012BC70005F8A6 /* NSFileManager+LCCKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+LCCKExtension.m"; sourceTree = "<group>"; };
+		D608C8EC22012BC70005F8A6 /* NSDate+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Utilities.h"; sourceTree = "<group>"; };
+		D608C8ED22012BC70005F8A6 /* NSFileManager+Paths.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Paths.m"; sourceTree = "<group>"; };
+		D608C8EE22012BC70005F8A6 /* NSDate+LCCKExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+LCCKExtension.m"; sourceTree = "<group>"; };
+		D608C8F022012BC70005F8A6 /* LCCKUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUtil.h; sourceTree = "<group>"; };
+		D608C8F222012BC70005F8A6 /* LCCKMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKMapViewController.h; sourceTree = "<group>"; };
+		D608C8F322012BC70005F8A6 /* LCCKMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKMapViewController.m; sourceTree = "<group>"; };
+		D608C8F522012BC70005F8A6 /* LCCKPlusButtonSubclass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKPlusButtonSubclass.m; sourceTree = "<group>"; };
+		D608C8F622012BC70005F8A6 /* LCCKPlusButtonSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKPlusButtonSubclass.h; sourceTree = "<group>"; };
+		D608C8F722012BC70005F8A6 /* LCCKUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUtil.m; sourceTree = "<group>"; };
+		D608C8F822012BC70005F8A6 /* LCCKConstantsDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKConstantsDefinition.h; sourceTree = "<group>"; };
+		D608C8FC22012BC70005F8A6 /* LCCKChatDetailHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKChatDetailHelper.h; sourceTree = "<group>"; };
+		D608C8FD22012BC70005F8A6 /* LCCKChatDetailHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKChatDetailHelper.m; sourceTree = "<group>"; };
+		D608C8FF22012BC70005F8A6 /* LCCKGroupConversationManagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKGroupConversationManagementViewController.h; sourceTree = "<group>"; };
+		D608C90022012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKGroupConversationMemberInfoViewController.m; sourceTree = "<group>"; };
+		D608C90122012BC70005F8A6 /* LCCKProfileNameEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKProfileNameEditViewController.m; sourceTree = "<group>"; };
+		D608C90222012BC70005F8A6 /* LCCKGroupConversationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKGroupConversationDetailViewController.h; sourceTree = "<group>"; };
+		D608C90322012BC70005F8A6 /* LCCKSingleConversationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSingleConversationDetailViewController.m; sourceTree = "<group>"; };
+		D608C90422012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKGroupConversationMemberInfoViewController.h; sourceTree = "<group>"; };
+		D608C90522012BC70005F8A6 /* LCCKGroupConversationManagementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKGroupConversationManagementViewController.m; sourceTree = "<group>"; };
+		D608C90622012BC70005F8A6 /* LCCKSingleConversationDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSingleConversationDetailViewController.h; sourceTree = "<group>"; };
+		D608C90722012BC70005F8A6 /* LCCKGroupConversationDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKGroupConversationDetailViewController.m; sourceTree = "<group>"; };
+		D608C90822012BC70005F8A6 /* LCCKProfileNameEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKProfileNameEditViewController.h; sourceTree = "<group>"; };
+		D608C90A22012BC70005F8A6 /* LCCKSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingViewController.h; sourceTree = "<group>"; };
+		D608C90C22012BC70005F8A6 /* LCCKSettingFooterTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingFooterTitleView.m; sourceTree = "<group>"; };
+		D608C90D22012BC70005F8A6 /* LCCKSettingHeaderTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingHeaderTitleView.h; sourceTree = "<group>"; };
+		D608C90E22012BC70005F8A6 /* LCCKSettingFooterTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingFooterTitleView.h; sourceTree = "<group>"; };
+		D608C90F22012BC70005F8A6 /* LCCKSettingHeaderTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingHeaderTitleView.m; sourceTree = "<group>"; };
+		D608C91122012BC70005F8A6 /* LCCKSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingGroup.m; sourceTree = "<group>"; };
+		D608C91222012BC70005F8A6 /* LCCKSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingItem.m; sourceTree = "<group>"; };
+		D608C91322012BC70005F8A6 /* LCCKSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingGroup.h; sourceTree = "<group>"; };
+		D608C91422012BC70005F8A6 /* LCCKSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingItem.h; sourceTree = "<group>"; };
+		D608C91522012BC70005F8A6 /* LCCKSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingViewController.m; sourceTree = "<group>"; };
+		D608C91722012BC70005F8A6 /* LCCKSettingSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingSwitchCell.m; sourceTree = "<group>"; };
+		D608C91822012BC70005F8A6 /* LCCKSettingButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingButtonCell.m; sourceTree = "<group>"; };
+		D608C91922012BC70005F8A6 /* LCCKSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKSettingCell.m; sourceTree = "<group>"; };
+		D608C91A22012BC70005F8A6 /* LCCKSettingSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingSwitchCell.h; sourceTree = "<group>"; };
+		D608C91B22012BC70005F8A6 /* LCCKSettingButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingButtonCell.h; sourceTree = "<group>"; };
+		D608C91C22012BC70005F8A6 /* LCCKSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKSettingCell.h; sourceTree = "<group>"; };
+		D608C91D22012BC70005F8A6 /* TLSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLSettingCell.h; sourceTree = "<group>"; };
+		D608C92022012BC70005F8A6 /* LCCKUserGroupItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUserGroupItemCell.h; sourceTree = "<group>"; };
+		D608C92122012BC70005F8A6 /* LCCKUserGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUserGroupCell.m; sourceTree = "<group>"; };
+		D608C92222012BC70005F8A6 /* LCCKUserGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUserGroupCell.h; sourceTree = "<group>"; };
+		D608C92322012BC70005F8A6 /* LCCKUserGroupItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUserGroupItemCell.m; sourceTree = "<group>"; };
+		D608C92622012BC70005F8A6 /* LCCKLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKLoginViewController.h; sourceTree = "<group>"; };
+		D608C92722012BC70005F8A6 /* LCCKLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKLoginViewController.m; sourceTree = "<group>"; };
+		D608C92822012BC70005F8A6 /* LCCKLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LCCKLoginViewController.xib; sourceTree = "<group>"; };
+		D608C92A22012BC70005F8A6 /* LCCKLoginDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKLoginDataSource.m; sourceTree = "<group>"; };
+		D608C92B22012BC70005F8A6 /* DEMODataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMODataSource.m; sourceTree = "<group>"; };
+		D608C92C22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DEMOCustomAutoCompleteObject.m; sourceTree = "<group>"; };
+		D608C92D22012BC70005F8A6 /* LCCKLoginDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKLoginDataSource.h; sourceTree = "<group>"; };
+		D608C92E22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMOCustomAutoCompleteObject.h; sourceTree = "<group>"; };
+		D608C92F22012BC70005F8A6 /* DEMODataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DEMODataSource.h; sourceTree = "<group>"; };
+		D608C93122012BC70005F8A6 /* LCCKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKUser.h; sourceTree = "<group>"; };
+		D608C93222012BC70005F8A6 /* LCCKUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKUser.m; sourceTree = "<group>"; };
+		D608C93422012BC70005F8A6 /* LCCKContactManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKContactManager.m; sourceTree = "<group>"; };
+		D608C93522012BC70005F8A6 /* LCCKContactManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKContactManager.h; sourceTree = "<group>"; };
+		D608C93722012BC70005F8A6 /* NSObject+LCCKHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LCCKHUD.h"; sourceTree = "<group>"; };
+		D608C93822012BC70005F8A6 /* NSObject+LCCKHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LCCKHUD.m"; sourceTree = "<group>"; };
+		D608C93922012BC70005F8A6 /* LCCKExampleConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKExampleConstants.h; sourceTree = "<group>"; };
+		D608C96222012C720005F8A6 /* LCChatKitExample+Setting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LCChatKitExample+Setting.m"; sourceTree = "<group>"; };
+		D608C96322012C720005F8A6 /* LCCKTabBarControllerConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCKTabBarControllerConfig.m; sourceTree = "<group>"; };
+		D608C96422012C730005F8A6 /* LCChatKitExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCChatKitExample.m; sourceTree = "<group>"; };
+		D608C96522012C730005F8A6 /* LCCKTabBarControllerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCKTabBarControllerConfig.h; sourceTree = "<group>"; };
+		D608C96622012C730005F8A6 /* LCChatKitExample+Setting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LCChatKitExample+Setting.h"; sourceTree = "<group>"; };
+		D608C96722012C740005F8A6 /* LCChatKitExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCChatKitExample.h; sourceTree = "<group>"; };
+		D9818B421A249F8B1D77230E /* Pods-TestChatKitS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestChatKitS.debug.xcconfig"; path = "Target Support Files/Pods-TestChatKitS/Pods-TestChatKitS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +150,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E3757EE5F7BF6CD15424A8 /* Pods_TestChatKitS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4BBEDA42B8C16441F4CF000A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05DE0C2C349CC8BD3D56D1DD /* Pods_TestChatKitS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D9B8E9BF18C514635CF16DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9818B421A249F8B1D77230E /* Pods-TestChatKitS.debug.xcconfig */,
+				05FF9BC7D23D02E1038F42D7 /* Pods-TestChatKitS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D608C8B1220125B40005F8A6 = {
 			isa = PBXGroup;
 			children = (
 				D608C8BC220125B40005F8A6 /* TestChatKitS */,
 				D608C8BB220125B40005F8A6 /* Products */,
+				8D9B8E9BF18C514635CF16DD /* Pods */,
+				4BBEDA42B8C16441F4CF000A /* Frameworks */,
+				D608C8CF22012B760005F8A6 /* TestChatKitS-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +196,8 @@
 		D608C8BC220125B40005F8A6 /* TestChatKitS */ = {
 			isa = PBXGroup;
 			children = (
+				D608C96B22012C960005F8A6 /* ChatX */,
+				D608C8D222012BC70005F8A6 /* Class */,
 				D608C8BD220125B40005F8A6 /* AppDelegate.swift */,
 				D608C8BF220125B40005F8A6 /* ViewController.swift */,
 				D608C8C1220125B40005F8A6 /* Main.storyboard */,
@@ -64,6 +208,282 @@
 			path = TestChatKitS;
 			sourceTree = "<group>";
 		};
+		D608C8D222012BC70005F8A6 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8D322012BC70005F8A6 /* Module */,
+				D608C93022012BC70005F8A6 /* Model */,
+				D608C93322012BC70005F8A6 /* Tool */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D608C8D322012BC70005F8A6 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8DC22012BC70005F8A6 /* Utilities */,
+				D608C8EF22012BC70005F8A6 /* Main */,
+				D608C8F922012BC70005F8A6 /* ConversationDetail */,
+				D608C92422012BC70005F8A6 /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		D608C8DC22012BC70005F8A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8DD22012BC70005F8A6 /* UIUtilities */,
+				D608C8E422012BC70005F8A6 /* DataUtilities */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D608C8DD22012BC70005F8A6 /* UIUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8DE22012BC70005F8A6 /* UIFont+LCCKExtension.m */,
+				D608C8DF22012BC70005F8A6 /* UIColor+LCCKExtension.m */,
+				D608C8E022012BC70005F8A6 /* LCCKUIUtility.m */,
+				D608C8E122012BC70005F8A6 /* UIColor+LCCKExtension.h */,
+				D608C8E222012BC70005F8A6 /* UIFont+LCCKExtension.h */,
+				D608C8E322012BC70005F8A6 /* LCCKUIUtility.h */,
+			);
+			path = UIUtilities;
+			sourceTree = "<group>";
+		};
+		D608C8E422012BC70005F8A6 /* DataUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8E522012BC70005F8A6 /* NSDate+Extension.h */,
+				D608C8E622012BC70005F8A6 /* NSDate+Utilities.m */,
+				D608C8E722012BC70005F8A6 /* NSFileManager+LCCKExtension.h */,
+				D608C8E822012BC70005F8A6 /* NSDate+LCCKExtension.h */,
+				D608C8E922012BC70005F8A6 /* NSFileManager+Paths.h */,
+				D608C8EA22012BC70005F8A6 /* NSDate+Extension.m */,
+				D608C8EB22012BC70005F8A6 /* NSFileManager+LCCKExtension.m */,
+				D608C8EC22012BC70005F8A6 /* NSDate+Utilities.h */,
+				D608C8ED22012BC70005F8A6 /* NSFileManager+Paths.m */,
+				D608C8EE22012BC70005F8A6 /* NSDate+LCCKExtension.m */,
+			);
+			path = DataUtilities;
+			sourceTree = "<group>";
+		};
+		D608C8EF22012BC70005F8A6 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8F022012BC70005F8A6 /* LCCKUtil.h */,
+				D608C8F122012BC70005F8A6 /* Controller */,
+				D608C8F422012BC70005F8A6 /* View */,
+				D608C8F722012BC70005F8A6 /* LCCKUtil.m */,
+				D608C8F822012BC70005F8A6 /* LCCKConstantsDefinition.h */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D608C8F122012BC70005F8A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8F222012BC70005F8A6 /* LCCKMapViewController.h */,
+				D608C8F322012BC70005F8A6 /* LCCKMapViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D608C8F422012BC70005F8A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8F522012BC70005F8A6 /* LCCKPlusButtonSubclass.m */,
+				D608C8F622012BC70005F8A6 /* LCCKPlusButtonSubclass.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D608C8F922012BC70005F8A6 /* ConversationDetail */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8FA22012BC70005F8A6 /* Other */,
+				D608C8FE22012BC70005F8A6 /* Controller */,
+				D608C90922012BC70005F8A6 /* SettingViewController */,
+				D608C91E22012BC70005F8A6 /* View */,
+			);
+			path = ConversationDetail;
+			sourceTree = "<group>";
+		};
+		D608C8FA22012BC70005F8A6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8FB22012BC70005F8A6 /* ChatDetailHelper */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D608C8FB22012BC70005F8A6 /* ChatDetailHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8FC22012BC70005F8A6 /* LCCKChatDetailHelper.h */,
+				D608C8FD22012BC70005F8A6 /* LCCKChatDetailHelper.m */,
+			);
+			path = ChatDetailHelper;
+			sourceTree = "<group>";
+		};
+		D608C8FE22012BC70005F8A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D608C8FF22012BC70005F8A6 /* LCCKGroupConversationManagementViewController.h */,
+				D608C90022012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.m */,
+				D608C90122012BC70005F8A6 /* LCCKProfileNameEditViewController.m */,
+				D608C90222012BC70005F8A6 /* LCCKGroupConversationDetailViewController.h */,
+				D608C90322012BC70005F8A6 /* LCCKSingleConversationDetailViewController.m */,
+				D608C90422012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.h */,
+				D608C90522012BC70005F8A6 /* LCCKGroupConversationManagementViewController.m */,
+				D608C90622012BC70005F8A6 /* LCCKSingleConversationDetailViewController.h */,
+				D608C90722012BC70005F8A6 /* LCCKGroupConversationDetailViewController.m */,
+				D608C90822012BC70005F8A6 /* LCCKProfileNameEditViewController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D608C90922012BC70005F8A6 /* SettingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D608C90A22012BC70005F8A6 /* LCCKSettingViewController.h */,
+				D608C90B22012BC70005F8A6 /* SettingViews */,
+				D608C91022012BC70005F8A6 /* SettingModels */,
+				D608C91522012BC70005F8A6 /* LCCKSettingViewController.m */,
+				D608C91622012BC70005F8A6 /* SettingCells */,
+			);
+			path = SettingViewController;
+			sourceTree = "<group>";
+		};
+		D608C90B22012BC70005F8A6 /* SettingViews */ = {
+			isa = PBXGroup;
+			children = (
+				D608C90C22012BC70005F8A6 /* LCCKSettingFooterTitleView.m */,
+				D608C90D22012BC70005F8A6 /* LCCKSettingHeaderTitleView.h */,
+				D608C90E22012BC70005F8A6 /* LCCKSettingFooterTitleView.h */,
+				D608C90F22012BC70005F8A6 /* LCCKSettingHeaderTitleView.m */,
+			);
+			path = SettingViews;
+			sourceTree = "<group>";
+		};
+		D608C91022012BC70005F8A6 /* SettingModels */ = {
+			isa = PBXGroup;
+			children = (
+				D608C91122012BC70005F8A6 /* LCCKSettingGroup.m */,
+				D608C91222012BC70005F8A6 /* LCCKSettingItem.m */,
+				D608C91322012BC70005F8A6 /* LCCKSettingGroup.h */,
+				D608C91422012BC70005F8A6 /* LCCKSettingItem.h */,
+			);
+			path = SettingModels;
+			sourceTree = "<group>";
+		};
+		D608C91622012BC70005F8A6 /* SettingCells */ = {
+			isa = PBXGroup;
+			children = (
+				D608C91722012BC70005F8A6 /* LCCKSettingSwitchCell.m */,
+				D608C91822012BC70005F8A6 /* LCCKSettingButtonCell.m */,
+				D608C91922012BC70005F8A6 /* LCCKSettingCell.m */,
+				D608C91A22012BC70005F8A6 /* LCCKSettingSwitchCell.h */,
+				D608C91B22012BC70005F8A6 /* LCCKSettingButtonCell.h */,
+				D608C91C22012BC70005F8A6 /* LCCKSettingCell.h */,
+				D608C91D22012BC70005F8A6 /* TLSettingCell.h */,
+			);
+			path = SettingCells;
+			sourceTree = "<group>";
+		};
+		D608C91E22012BC70005F8A6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D608C91F22012BC70005F8A6 /* ConversationDetailCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D608C91F22012BC70005F8A6 /* ConversationDetailCells */ = {
+			isa = PBXGroup;
+			children = (
+				D608C92022012BC70005F8A6 /* LCCKUserGroupItemCell.h */,
+				D608C92122012BC70005F8A6 /* LCCKUserGroupCell.m */,
+				D608C92222012BC70005F8A6 /* LCCKUserGroupCell.h */,
+				D608C92322012BC70005F8A6 /* LCCKUserGroupItemCell.m */,
+			);
+			path = ConversationDetailCells;
+			sourceTree = "<group>";
+		};
+		D608C92422012BC70005F8A6 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D608C92522012BC70005F8A6 /* Controller */,
+				D608C92922012BC70005F8A6 /* Model */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D608C92522012BC70005F8A6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D608C92622012BC70005F8A6 /* LCCKLoginViewController.h */,
+				D608C92722012BC70005F8A6 /* LCCKLoginViewController.m */,
+				D608C92822012BC70005F8A6 /* LCCKLoginViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D608C92922012BC70005F8A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D608C92A22012BC70005F8A6 /* LCCKLoginDataSource.m */,
+				D608C92B22012BC70005F8A6 /* DEMODataSource.m */,
+				D608C92C22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.m */,
+				D608C92D22012BC70005F8A6 /* LCCKLoginDataSource.h */,
+				D608C92E22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.h */,
+				D608C92F22012BC70005F8A6 /* DEMODataSource.h */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D608C93022012BC70005F8A6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D608C93122012BC70005F8A6 /* LCCKUser.h */,
+				D608C93222012BC70005F8A6 /* LCCKUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D608C93322012BC70005F8A6 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				D608C93422012BC70005F8A6 /* LCCKContactManager.m */,
+				D608C93522012BC70005F8A6 /* LCCKContactManager.h */,
+				D608C93622012BC70005F8A6 /* MBProgressHUD */,
+				D608C93922012BC70005F8A6 /* LCCKExampleConstants.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		D608C93622012BC70005F8A6 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				D608C93722012BC70005F8A6 /* NSObject+LCCKHUD.h */,
+				D608C93822012BC70005F8A6 /* NSObject+LCCKHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		D608C96B22012C960005F8A6 /* ChatX */ = {
+			isa = PBXGroup;
+			children = (
+				D608C96722012C740005F8A6 /* LCChatKitExample.h */,
+				D608C96422012C730005F8A6 /* LCChatKitExample.m */,
+				D608C96622012C730005F8A6 /* LCChatKitExample+Setting.h */,
+				D608C96222012C720005F8A6 /* LCChatKitExample+Setting.m */,
+				D608C96522012C730005F8A6 /* LCCKTabBarControllerConfig.h */,
+				D608C96322012C720005F8A6 /* LCCKTabBarControllerConfig.m */,
+			);
+			path = ChatX;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +491,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D608C8CC220125B60005F8A6 /* Build configuration list for PBXNativeTarget "TestChatKitS" */;
 			buildPhases = (
+				CEBD60DCCB8AAC2B4653F977 /* [CP] Check Pods Manifest.lock */,
 				D608C8B6220125B40005F8A6 /* Sources */,
 				D608C8B7220125B40005F8A6 /* Frameworks */,
 				D608C8B8220125B40005F8A6 /* Resources */,
+				32BB9B1A51EECAFA921D1553 /* [CP] Embed Pods Frameworks */,
+				A7EF4FC4ED0DF922A048DF8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +519,7 @@
 				TargetAttributes = {
 					D608C8B9220125B40005F8A6 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -106,6 +530,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans-CN",
 			);
 			mainGroup = D608C8B1220125B40005F8A6;
 			productRefGroup = D608C8BB220125B40005F8A6 /* Products */;
@@ -123,6 +548,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D608C8C8220125B60005F8A6 /* LaunchScreen.storyboard in Resources */,
+				D608C95B22012BC70005F8A6 /* LCCKLoginViewController.xib in Resources */,
 				D608C8C5220125B60005F8A6 /* Assets.xcassets in Resources */,
 				D608C8C3220125B40005F8A6 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +556,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32BB9B1A51EECAFA921D1553 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestChatKitS/Pods-TestChatKitS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloud/AVOSCloud.framework",
+				"${BUILT_PRODUCTS_DIR}/AVOSCloudIM/AVOSCloudIM.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLDeallocBlockExecutor/CYLDeallocBlockExecutor.framework",
+				"${BUILT_PRODUCTS_DIR}/CYLTabBarController/CYLTabBarController.framework",
+				"${BUILT_PRODUCTS_DIR}/ChatKit/ChatKit.framework",
+				"${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework",
+				"${BUILT_PRODUCTS_DIR}/FDStackView/FDStackView.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/FTPopOverMenu/FTPopOverMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/FXForms/FXForms.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/MLLabel/MLLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/MLPAutoCompleteTextField/MLPAutoCompleteTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/MWPhotoBrowser/MWPhotoBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TWMessageBarManager/TWMessageBarManager.framework",
+				"${BUILT_PRODUCTS_DIR}/UITableView+FDTemplateLayoutCell/UITableView_FDTemplateLayoutCell.framework",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloud.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVOSCloudIM.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLDeallocBlockExecutor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CYLTabBarController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChatKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DACircularProgress.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FDStackView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FTPopOverMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FXForms.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MLPAutoCompleteTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MWPhotoBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWMessageBarManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITableView_FDTemplateLayoutCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestChatKitS/Pods-TestChatKitS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7EF4FC4ED0DF922A048DF8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestChatKitS/Pods-TestChatKitS-resources.sh",
+				"${PODS_ROOT}/RedPacketAlipay/AlipaySDK.bundle",
+				"${PODS_ROOT}/RedpacketLib/RedpacketStaticLib/resources/RedPacketResource.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RedPacketResource.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestChatKitS/Pods-TestChatKitS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBD60DCCB8AAC2B4653F977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestChatKitS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D608C8B6220125B40005F8A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D608C95822012BC70005F8A6 /* LCCKUserGroupCell.m in Sources */,
+				D608C94A22012BC70005F8A6 /* LCCKChatDetailHelper.m in Sources */,
+				D608C94022012BC70005F8A6 /* UIColor+LCCKExtension.m in Sources */,
+				D608C94B22012BC70005F8A6 /* LCCKGroupConversationMemberInfoViewController.m in Sources */,
+				D608C96922012C740005F8A6 /* LCCKTabBarControllerConfig.m in Sources */,
+				D608C94822012BC70005F8A6 /* LCCKPlusButtonSubclass.m in Sources */,
+				D608C95D22012BC70005F8A6 /* DEMODataSource.m in Sources */,
+				D608C95E22012BC70005F8A6 /* DEMOCustomAutoCompleteObject.m in Sources */,
+				D608C95022012BC70005F8A6 /* LCCKSettingFooterTitleView.m in Sources */,
 				D608C8C0220125B40005F8A6 /* ViewController.swift in Sources */,
+				D608C95322012BC70005F8A6 /* LCCKSettingItem.m in Sources */,
+				D608C95122012BC70005F8A6 /* LCCKSettingHeaderTitleView.m in Sources */,
+				D608C96022012BC70005F8A6 /* LCCKContactManager.m in Sources */,
+				D608C94422012BC70005F8A6 /* NSFileManager+LCCKExtension.m in Sources */,
+				D608C94922012BC70005F8A6 /* LCCKUtil.m in Sources */,
+				D608C96A22012C740005F8A6 /* LCChatKitExample.m in Sources */,
+				D608C94622012BC70005F8A6 /* NSDate+LCCKExtension.m in Sources */,
+				D608C96822012C740005F8A6 /* LCChatKitExample+Setting.m in Sources */,
+				D608C94F22012BC70005F8A6 /* LCCKGroupConversationDetailViewController.m in Sources */,
+				D608C94122012BC70005F8A6 /* LCCKUIUtility.m in Sources */,
+				D608C94322012BC70005F8A6 /* NSDate+Extension.m in Sources */,
 				D608C8BE220125B40005F8A6 /* AppDelegate.swift in Sources */,
+				D608C95C22012BC70005F8A6 /* LCCKLoginDataSource.m in Sources */,
+				D608C94722012BC70005F8A6 /* LCCKMapViewController.m in Sources */,
+				D608C94C22012BC70005F8A6 /* LCCKProfileNameEditViewController.m in Sources */,
+				D608C95222012BC70005F8A6 /* LCCKSettingGroup.m in Sources */,
+				D608C95722012BC70005F8A6 /* LCCKSettingCell.m in Sources */,
+				D608C95522012BC70005F8A6 /* LCCKSettingSwitchCell.m in Sources */,
+				D608C95922012BC70005F8A6 /* LCCKUserGroupItemCell.m in Sources */,
+				D608C95A22012BC70005F8A6 /* LCCKLoginViewController.m in Sources */,
+				D608C94522012BC70005F8A6 /* NSFileManager+Paths.m in Sources */,
+				D608C93F22012BC70005F8A6 /* UIFont+LCCKExtension.m in Sources */,
+				D608C94222012BC70005F8A6 /* NSDate+Utilities.m in Sources */,
+				D608C95422012BC70005F8A6 /* LCCKSettingViewController.m in Sources */,
+				D608C94D22012BC70005F8A6 /* LCCKSingleConversationDetailViewController.m in Sources */,
+				D608C95622012BC70005F8A6 /* LCCKSettingButtonCell.m in Sources */,
+				D608C95F22012BC70005F8A6 /* LCCKUser.m in Sources */,
+				D608C96122012BC70005F8A6 /* NSObject+LCCKHUD.m in Sources */,
+				D608C94E22012BC70005F8A6 /* LCCKGroupConversationManagementViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +852,10 @@
 		};
 		D608C8CD220125B60005F8A6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9818B421A249F8B1D77230E /* Pods-TestChatKitS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5VG453CHM;
 				INFOPLIST_FILE = TestChatKitS/Info.plist;
@@ -291,6 +865,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqian.TestChatKitS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestChatKitS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +874,10 @@
 		};
 		D608C8CE220125B60005F8A6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05FF9BC7D23D02E1038F42D7 /* Pods-TestChatKitS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = E5VG453CHM;
 				INFOPLIST_FILE = TestChatKitS/Info.plist;
@@ -309,6 +887,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqian.TestChatKitS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestChatKitS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
